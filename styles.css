@@ -4,12 +4,49 @@ table {
     width: 100%;
 }
 
+body {
+    color: #dddddd;
+}
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align: center;
     padding: 8px;
+    color: #feb404;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #383737;
+}
+
+tr:nth-child(odd) {
+    background-color: #1b1b1b;
+}
+
+body {
+    background-color: #121212;
+}
+
+.girraphicFont {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.girraphicColor {
+    color: #feb404;
+}
+
+img {
+    width: 20%
+}
+
+#uploadJson {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.btn:hover {
+    color: #dddddd !important;
 }
