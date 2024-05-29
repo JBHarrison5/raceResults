@@ -7,6 +7,7 @@ table {
 body {
     color: #dddddd;
 }
+
 td, th {
     border: 1px solid #dddddd;
     text-align: center;
@@ -37,7 +38,11 @@ body {
 }
 
 img {
-    width: 20%
+    width: 10rem
+}
+
+hr {
+    border-color: #feb404 ;
 }
 
 #uploadJson {
